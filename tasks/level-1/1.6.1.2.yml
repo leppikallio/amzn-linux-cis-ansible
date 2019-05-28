@@ -1,6 +1,16 @@
 # Standards: 0.11
 ---
 
+- name: libselinux-python required for this module
+  yum:
+    name: libselinux-python
+    state: present
+  tags:
+    - level-1
+    - section-1
+    - "1.6.1.2"
+    - scored
+
 # 1.6.1.2. Ensure the SELinux state is enforcing (Scored)
 
 - name: 1.6.1.2 Ensure the SELinux state is enforcing (Scored)

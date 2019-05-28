@@ -19,7 +19,6 @@
     protocol: tcp
     destination_port: 22
     ctstate: NEW
-    syn: match
     jump: ACCEPT
     comment: Accept new SSH connections.
   become: yes
@@ -28,3 +27,5 @@
     - section-3
     - "3.6.5"
     - not-scored
+
+#     syn: match
