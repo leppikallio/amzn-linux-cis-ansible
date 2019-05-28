@@ -3,6 +3,8 @@ Role Name
 
 amzn-linux-cis-ansible
 
+[![Build Status](https://travis-ci.org/leppikallio/amzn-linux-cis-ansible.svg?branch=master)](https://travis-ci.org/leppikallio/amzn-linux-cis-ansible)
+
 Original artwork by Mr. Anth Courtney, https://github.com/anthcourtney/ansible-role-cis-amazon-linux
 
 
