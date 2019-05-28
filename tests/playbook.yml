@@ -6,4 +6,4 @@
   become: yes
 
   roles:
-    - ansible-role-cis-amazon-linux
+    - amzn-linux-cis-ansible

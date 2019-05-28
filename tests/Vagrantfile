@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 
     # config.vm.network :forwarded_port, guest: 22, host: 10022, auto_correct: true
 
-    config.vm.synced_folder "../", "/home/vagrant/ansible-role-cis-amazon-linux", create: true, group: "vagrant", owner: "vagrant"
+    config.vm.synced_folder "../", "/home/vagrant/amzn-linux-cis-ansible", create: true, group: "vagrant", owner: "vagrant"
 
     config.vm.provider "virtualbox" do |v|
         v.name = "AWSLinux"
